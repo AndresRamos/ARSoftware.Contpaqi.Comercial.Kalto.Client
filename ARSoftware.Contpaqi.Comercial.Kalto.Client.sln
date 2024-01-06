@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ARSoftware.Contpaqi.Comercial.Kalto.Client", "src\ARSoftware.Contpaqi.Comercial.Kalto.Client\ARSoftware.Contpaqi.Comercial.Kalto.Client.csproj", "{531E80A2-5E2F-452E-A14B-AD4F357090BE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejemplos", "samples\Ejemplos\Ejemplos.csproj", "{8B2928B1-2446-444C-8EE9-C44769423CEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{531E80A2-5E2F-452E-A14B-AD4F357090BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{531E80A2-5E2F-452E-A14B-AD4F357090BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{531E80A2-5E2F-452E-A14B-AD4F357090BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{531E80A2-5E2F-452E-A14B-AD4F357090BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B2928B1-2446-444C-8EE9-C44769423CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B2928B1-2446-444C-8EE9-C44769423CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B2928B1-2446-444C-8EE9-C44769423CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B2928B1-2446-444C-8EE9-C44769423CEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {467E7935-0E29-45F7-B9BB-2672F61D988E}
+	EndGlobalSection
+EndGlobal
