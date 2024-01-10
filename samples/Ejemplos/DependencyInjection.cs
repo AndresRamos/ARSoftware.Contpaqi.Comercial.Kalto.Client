@@ -38,5 +38,6 @@ public static class DependencyInjection
     private static void AddEjemplos(this IServiceCollection services)
     {
         services.AddTransient<CrearProveedor>();
+        services.AddTransient<CrearCuentaPorPagar>();
     }
 }

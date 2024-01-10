@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using ARSoftware.Contpaqi.Comercial.Kalto.Client;
 using Ejemplos;
+using Ejemplos.Jobs;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Serilog;
@@ -26,6 +27,9 @@ var logger = services.GetRequiredService<ILogger>();
 
 try
 {
+    var crearCuentaPorPagar = services.GetRequiredService<CrearCuentaPorPagar>();
+
+    await crearCuentaPorPagar.Run("", "21", "", 3);
 }
 catch (Exception e)
 {

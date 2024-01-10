@@ -1,5 +1,6 @@
 ﻿using System.Net.Http.Headers;
 using ARSoftware.Contpaqi.Comercial.Kalto.Client.Common;
+using ARSoftware.Contpaqi.Comercial.Kalto.Client.CuentasPorPagar.Services;
 using ARSoftware.Contpaqi.Comercial.Kalto.Client.Proveedores.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -25,6 +26,7 @@ public static class DependencyInjection
         });
 
         services.AddTransient<IProviderService, ProviderService>();
+        services.AddTransient<IAccountPayableService, AccountPayableService>();
 
         return services;
     }
