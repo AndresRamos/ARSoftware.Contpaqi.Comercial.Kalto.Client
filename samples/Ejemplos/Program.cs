@@ -28,8 +28,9 @@ var logger = services.GetRequiredService<ILogger>();
 try
 {
     var crearCuentaPorPagar = services.GetRequiredService<CrearCuentaPorPagar>();
-
-    await crearCuentaPorPagar.Run("BU-8fa4ba34-d3d3-4f7f-9c96-2360abac7b0f", "21", "", 3);
+    await crearCuentaPorPagar.Run("BU-8fa4ba34-d3d3-4f7f-9c96-2360abac7b0f", "21", "", 4);
+    //var crearProveedorTest = services.GetRequiredService<CrearProveedor>();
+    //await crearProveedorTest.Run();
 }
 catch (Exception e)
 {

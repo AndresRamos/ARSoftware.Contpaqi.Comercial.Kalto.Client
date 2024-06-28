@@ -36,7 +36,7 @@ public class CrearCuentaPorPagar
 
         var createAccountPayable = new CreateAccountPayable
         {
-            CustomReference = documento.Folio.ToString(),
+            CustomReference = "6",
             CurrencyCode = "MXN",
             Type = "BILL",
             TotalAmount = documento.Total,

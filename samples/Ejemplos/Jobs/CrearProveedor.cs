@@ -26,7 +26,7 @@ public class CrearProveedor
 
     public async Task Run()
     {
-        var proveedorDto = _clienteRepository.BuscarPorCodigo("CTE003");
+        var proveedorDto = _clienteRepository.BuscarPorCodigo("PROVKALTO");
 
         var proveedor = _mapper.Map<ClienteProveedor>(proveedorDto);
 
@@ -39,8 +39,8 @@ public class CrearProveedor
             CustomReference = proveedor.Codigo,
             TaxId = proveedor.Rfc,
             DisbursementAccount = "112545676894213551",
-            Email = "cliente3@myemail.com",
-            NetTerms = 30
+            Email = "cliente4@myemail.com",
+            NetTerms = 15
         };
 
         var provider = await _providerService.Create(createProvider);
